@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `yarn start`
 but may have to first 
-### npm install
+### `npm install`
 to install all necessary dependencies and packages
 
 Runs the app in the development mode.\
