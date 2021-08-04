@@ -2,6 +2,8 @@ import firebase from "firebase/app";
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// do not share this config key! keep this private
+
 const firebaseConfig = {
     apiKey: "AIzaSyCnRqIY1suQgLM7SrrOADSA9D2TjchUJUg",
     authDomain: "jg-firebase-demo.firebaseapp.com",
