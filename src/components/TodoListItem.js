@@ -1,3 +1,6 @@
+// Same component as Todo.js but trying out different way. need to fix memory leak from useEffect hook
+
+
 // import { useState, useEffect, useContext } from 'react';
 // import { ListItem, ListItemText, Button, Box } from "@material-ui/core";
 // import { firebase } from '../lib/firebase';
