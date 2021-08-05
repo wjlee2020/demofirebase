@@ -11,6 +11,7 @@ but may have to first
 ### `npm install`
 to install all necessary dependencies and packages
 
+### `yarn start` or `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

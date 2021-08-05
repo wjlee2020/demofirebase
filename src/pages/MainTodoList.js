@@ -21,8 +21,6 @@ export default function MainTodoList() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(5);
 
-
-
   // move to services with setTodo function separate context: for future
   async function getTodosFromDb(id) {
     await firebase
