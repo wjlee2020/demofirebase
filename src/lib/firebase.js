@@ -1,6 +1,6 @@
 import firebase from "firebase/app";
-import 'firebase/firestore';
-import 'firebase/auth';
+import "firebase/firestore";
+import "firebase/auth";
 
 // do not share this config key! keep this private
 
@@ -10,10 +10,14 @@ const firebaseConfig = {
     projectId: "jg-firebase-demo",
     storageBucket: "jg-firebase-demo.appspot.com",
     messagingSenderId: "1027718551125",
-    appId: "1:1027718551125:web:0afda24a6e4ba0a054a6dc"
-  };
+    appId: "1:1027718551125:web:0afda24a6e4ba0a054a6dc",
+};
 
 firebase.initializeApp(firebaseConfig);
+firebase
+    .firestore()
+    .enablePersistence()
+    .catch((error) => console.log(error));
 
 const { FieldValue } = firebase.firestore;
 
